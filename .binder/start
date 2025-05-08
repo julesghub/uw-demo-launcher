@@ -5,4 +5,6 @@
 
 export PYTHONPATH=$CONDA_PREFIX/lib/ 
 
+TZ='Australia/Sydney' date > ~/.start_finish
+
 exec "$@"
