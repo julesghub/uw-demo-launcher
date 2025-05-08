@@ -48,6 +48,8 @@ git clone --single-branch --branch development https://github.com/underworldcode
 cd underworld2
 pip install . --no-build-isolation
 
+TZ='Australia/Sydney' date > ~/.post_build_finish
+
 echo
 echo Completed
 echo
